@@ -1,0 +1,79 @@
+/* EventForm Container */
+.event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #eef2f3; /* Light blue-gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: auto;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.event-form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+}
+
+.event-form h1 {
+    color: #34495e; /* Dark slate blue */
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #2c3e50; /* Dark blue */
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #48c9b0; /* Teal */
+    box-shadow: 0 0 5px rgba(72, 201, 176, 0.3);
+    outline: none;
+}
+
+button {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue */
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,62 @@
+/* EventDetails Container */
+.event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #eef2f3; /* Light blue-gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin: 20px;
+    max-width: 600px;
+    margin: auto;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .event-details:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px);
+  }
+  
+  .event-details h1 {
+    color: #34495e; /* Dark slate blue */
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-details p {
+    color: #7f8c8d; /* Gray */
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .event-details button {
+    background-color: #48c9b0; /* Teal */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+  }
+  
+  .event-details button:hover {
+    background-color: #1abc9c; /* Darker teal */
+    transform: scale(1.05);
+  }
+  
+  .event-details button:active {
+    transform: scale(0.98);
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c; /* Red */
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b; /* Darker red */
+  }
